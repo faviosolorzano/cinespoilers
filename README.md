@@ -53,7 +53,7 @@ Se agrego los Los generos para cada pelicula
 ![](./doc/patch_review.png)
 ![](./doc/bdpatch_review.png)
 
-### DELETE http://127.0.0.1:8000/api/genres/1/
+### DELETE http://127.0.0.1:8000/api/reviews/1/
 
 ![](./doc/delete_review.png)
 ![](./doc/bddelete_review.png)
