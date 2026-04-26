@@ -1,40 +1,49 @@
 # Favio Solorzano Cardenas 
 # Daniella Leon 
 
-Database 
 
-### GET http://127.0.0.1:8000/api/movies/
+## LABORATORIO 6
+Se añadio la funcion de añadirle genero y reseñas
+
+### GENRE
+Se agrego los Los generos para cada pelicula 
+
+### POST http://127.0.0.1:8000/api/genres/
 
 ![](./doc/1movies.png)
 ![](./doc/1database.png)
 
-### POST http://127.0.0.1:8000/api/movies/
+### GET http://127.0.0.1:8000/api/genres/
 
 ![](./doc/2movies.png)
 ![](./doc/2database.png)
 
-### PUT http://127.0.0.1:8000/api/movies/2/
+### PUT http://127.0.0.1:8000/api/movies/1/
 
 ![](./doc/3movies.png)
 ![](./doc/3database.png)
 
-### DELETE http://127.0.0.1:8000/api/movies/2/
+### DELETE http://127.0.0.1:8000/api/genres/1/
 
-![](./doc/4movie.png)
+![](./doc/4movies.png)
 ![](./doc/4database.png)
 
-### PATCH http://127.0.0.1:8000/api/movies/1/
-
-![](./doc/5movies.png)
+### La parte de http://127.0.0.1:8000/admin/movies/genre/
+![](./doc/1.png)
 ![](./doc/5database.png)
 
 ### Interface http://127.0.0.1:8000/api
 
-![](./doc/6movies.png)
+![](./doc/1interface.png)
+
 
 ### Interface http://127.0.0.1:8000/api/movies/
 
-![](./doc/7movies.png)
+![](./doc/2interface.png)
+
+### Interface http://127.0.0.1:8000/api/genres/
+
+![](./doc/3interface.png)
 
 
 # Daniella Leon Andres - Capturas
@@ -53,6 +62,47 @@ Database
   <b> Base de Datos Get</b><br><br>
   <img src="./doc/db_get.png">
 </div>
+
+# Daniella Leon
+
+
+### POST http://127.0.0.1:8000/api/genres/
+
+![](./doc/.png)
+![](./doc/.png)
+
+### GET http://127.0.0.1:8000/api/genres/
+
+![](./doc/.png)
+![](./doc/.png)
+
+### PUT http://127.0.0.1:8000/api/movies/1/
+
+![](./doc/.png)
+![](./doc/.png)
+
+### DELETE http://127.0.0.1:8000/api/genres/1/
+
+![](./doc/.png)
+![](./doc/.png)
+
+### La parte de http://127.0.0.1:8000/admin/movies/genre/
+![](./doc/.png)
+![](./doc/.png)
+
+### Interface http://127.0.0.1:8000/api
+
+![](./doc/.png)
+
+
+### Interface http://127.0.0.1:8000/api/movies/
+
+![](./doc/.png)
+
+### Interface http://127.0.0.1:8000/api/genres/
+
+![](./doc/.png)
+
 
 
 ## Registrar Movie (POST)
